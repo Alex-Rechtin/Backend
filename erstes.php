@@ -24,7 +24,7 @@
             $z[2]= 33106;
 
             echo "<br>";
-            for ($i=0; $i < count($z) ; $i++) { 
+            for ($i=0; $i < count($z) ; $i++) { //count($z) --> zum hochzählen
                 echo $z[$i]."<br>";
             }
             
