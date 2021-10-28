@@ -20,7 +20,7 @@
         $stringFormular = "<select name='".$name."'>";
         foreach ($datenArray as $value) {
             if ($value === $selected) {
-                $stringFormular .= "\n<option value='".$value."'>selected>'".$value."'</option> </select>"
+                $stringFormular .= "\n<option value='".$value."'>selected>'".$value."'</option> </select>";
             }
             else{
                 $stringFormular .= "\n<option value='".$value."' >$value</option>";
